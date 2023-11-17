@@ -1,0 +1,126 @@
+* {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #129799;
+    color: #fff;
+    width: 98.7vw;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 12vh;
+}
+
+a { 
+    z-index: 0;
+    color: #fff;
+    position: relative; 
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.apontador {
+    position: absolute;
+    z-index: 1;
+    left: 50vh;
+    top: 6vh;
+    cursor: pointer;
+}
+
+header .titulo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 96vw;
+    height: 80vh;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.lista ul {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+main {
+    background-color: #FFA185;
+    height: 190vh;
+}
+
+main h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 5vh;
+}
+main p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.aquarela {
+    padding: 5rem 2rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+main .poster {
+    position: relative;
+    display: flexbox;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.poster img {
+    height: 55vh;
+    margin: 0 0 1.5rem 2.5rem;
+}
+
+
+h3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+footer {
+    position: relative;
+    background-color: #129799;
+    color: #fff;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape img {
+    padding: 0 2vh;
+}
+
+
+.footer-list a{
+    padding: 0 7vh;
+}
