@@ -13,6 +13,11 @@ header {
     height: 100vh;
 }
 
+.life {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -62,7 +67,7 @@ h1 {
 
 main {
     background-color: #FFA185;
-    height: 190vh;
+    height: 100%;
 }
 
 main h2 {
@@ -86,13 +91,14 @@ main p {
 }
 main .poster {
     position: relative;
-    display: flexbox;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
 .poster img {
     height: 55vh;
-    margin: 0 0 1.5rem 2.5rem;
+    margin: 0 0 1.5rem 0;
 }
 
 
@@ -112,6 +118,7 @@ footer {
     color: #fff;
     height: 30vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
